@@ -1,0 +1,2 @@
+These scripts identify small secreted proteins from protein sequence data.
+The script 'ssp.sh' takes lists of gene IDs, retrieves their sequence from a FASTA file, surverys their length and predicts the presence of a signal peptide.
