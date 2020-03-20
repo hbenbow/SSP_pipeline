@@ -1,4 +1,5 @@
 #!/bin/bash
+#this surveys length opf proteins and detects signal peptides
 FILES=$1/*
 mkdir $3
 for file in $FILES
