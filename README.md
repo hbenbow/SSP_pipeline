@@ -1,13 +1,16 @@
+# SSP Pipeline for the discovery of small, secreted proteins from sequence data
+## Introduction
 These scripts identify small secreted proteins from protein sequence data.
 The script 'ssp.sh' takes lists of gene IDs, retrieves their sequence from a FASTA file, surverys their length and predicts the presence of a signal peptide.
 The script then calls count_SSPs.R, which concatenates the data and provides tables and lists of SSPs.
 
-Dependencies:
-Samtools
-SignalP V5
-R
+## Dependencies
+* Samtools
+* SignalP V5
+* R
+** requres the package 'dplyr'
 
-usage:
+## usage:
 call the script using the following command with the positional arguments
 
 bash ssp.sh 1 2 3
